@@ -1,0 +1,40 @@
+/* src/components/molecules/HeroSection.css */
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #282C34;
+    color: #fff;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-text {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .hero-image {
+    max-width: 40%;
+    border-radius: 10px;
+  }
+  
