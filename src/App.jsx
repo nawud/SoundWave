@@ -1,15 +1,22 @@
-import Page from './components/Page/Page'
+import Logo from './components/atoms/Logo/Logo'
+import Header from './components/Header/Header'
+
 import './App.css'
 
+
 function App() {
- 
 
   return (
     <>
-     <Buttom title="Botón 1" text="Click botón 1"/>
-    <Buttom title="Botón 2" text="Click botón 2"/>
-    <Buttom title="Botón 3" text="Click botón 3"/> 
-     
+     <Logo/>
+     <Header />
+
+
+
+
+
+
+
     </>
   )
 }
