@@ -1,9 +1,16 @@
+import Logo from '../atoms/Logo/Logo'
+import Navigation from '../molecules/Navigation/Navigation'
+import './header.css'
 
 function Header() {
   return (
     <>
-    <p>{title}</p>
+    <div className='header-container'>
+      <Logo/>
+      <Navigation/>
+    </div>
     </>
+
   )
 }
 

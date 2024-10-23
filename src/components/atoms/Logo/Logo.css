@@ -1,0 +1,17 @@
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+ 
+  
+  .logo-image {
+    margin-right: 13px;
+    height: 40px;
+    width: auto;
+  }
+  
+  

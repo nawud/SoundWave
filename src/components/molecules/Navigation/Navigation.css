@@ -1,0 +1,19 @@
+
+.navigation {
+    padding: 1rem;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .nav-list {
+      gap: 1rem;
+    }
+  }
