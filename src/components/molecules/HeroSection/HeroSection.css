@@ -1,11 +1,8 @@
-/* src/components/molecules/HeroSection.css */
-
 .hero-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 2rem;
-    background-color: #282C34;
     color: #fff;
   }
   
