@@ -1,9 +1,11 @@
 .hero-section {
+    
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 2rem;
     color: #fff;
+   
   }
   
   .hero-content {
@@ -35,3 +37,9 @@
     border-radius: 10px;
   }
   
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }

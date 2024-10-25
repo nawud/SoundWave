@@ -5,6 +5,25 @@ background-color: #2F303A;
 
 
 .background-template {
-    border: red;
+    border: solid 1px #303047;
+    border-radius: 50%;
+    width: 800px;
+    height: 800px;
+    background-color: #303047;
+    position: absolute;
+    bottom: -350px;
+    right: -350px;
+    z-index: -1;
+}
 
+.background-template-2 {
+    border: solid 1px #412c41;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    background-color: #412c41;
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    z-index: -1;
 }
