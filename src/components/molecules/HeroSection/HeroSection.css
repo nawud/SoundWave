@@ -1,5 +1,4 @@
 .hero-section {
-    
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -13,12 +12,12 @@
   }
   
   .hero-title {
-    font-size: 3rem;
+    font-size: 68px;
     margin-bottom: 1rem;
   }
   
   .hero-text {
-    font-size: 1.5rem;
+    font-size: 29px;
     margin-bottom: 2rem;
   }
   
@@ -42,4 +41,5 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin-top: 200px;
   }
