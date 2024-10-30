@@ -15,8 +15,8 @@ body {
     height: 500px;
     background-color: #303047;
     position: absolute;
-    bottom: -350px;
-    right: -350px;
+    bottom: -125px;
+    right: -125px;
     z-index: -1;
 }
 
