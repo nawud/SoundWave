@@ -1,17 +1,15 @@
-
-
- .discover__title {
+.discover__title {
     color: white;
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 40px;
- }
+}
 
- .discover__navigation {
+.discover__navigation {
     display: flex;
     gap: 20px;
     margin-bottom: 30px;
- }
+}
 
 .discover__nav-item {
     border-radius: 8px;
@@ -22,6 +20,7 @@
     align-items: center;
     width: 100px;
     background-color: #211f27;
+    color: #fff;
 }
 
 .discover__nav-item:hover {
@@ -35,16 +34,39 @@
 }
 
 .discover__container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  gap: 20px;
-  margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 150px;
 }
 
 .cover img {
     width: 70%;
     height: auto;
-  }
+}
+
+
+footer {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+@media (max-width: 768px) {
+    .discover__container {
+        display: block;
+       margin-right: 150px;
+       margin-bottom: 250px;
+    }
+}

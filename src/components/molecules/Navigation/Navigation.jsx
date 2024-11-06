@@ -1,4 +1,5 @@
-import NavLink from '../../atoms/Navlink/Navlink'
+
+import { NavLink } from 'react-router-dom';
 import './Navigation.css'
 
 const Navigation = () => {
@@ -6,10 +7,10 @@ const Navigation = () => {
     <nav className="navigation">
       <ul className="nav-list">
         <li>
-          <NavLink href="#discover">Discover</NavLink>
+          <NavLink className={"Navlink"} to={"/DiscoverSection"}>Discover</NavLink>
         </li>
         <li>
-          <NavLink href="">Join</NavLink>
+          <NavLink className={"Navlink"} to={"/JoinSection"}>Join</NavLink>
         </li>
       </ul>
     </nav>

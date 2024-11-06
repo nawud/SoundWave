@@ -4,17 +4,43 @@
     align-items: center;
   }
   
+  .navigation a {
+    color: #fff;
+    text-decoration: none;
+    
+  }
+  
   .nav-list {
     list-style: none;
     display: flex;
     gap: 2rem;
     margin: 0;
     padding: 0;
+    
   }
   
+ 
   
-  @media (max-width: 768px) {
-    .nav-list {
-      gap: 1rem;
-    }
+ @media (max-width: 768px) {
+  
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap ;
   }
+  
+  .navigation a {
+    color: #fff;
+    text-decoration: none;
+    
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  } 
